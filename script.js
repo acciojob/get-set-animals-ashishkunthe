@@ -8,9 +8,9 @@ class Animal {
 		return this._species
 	}
 	
-	makeSound(){
-		console.log("The"+this.species+"makes sound")
-	}
+	makeSound() {
+    console.log(`The ${this.species} makes a sound`);
+  }
 }
 
 class Dog extends Animal {
